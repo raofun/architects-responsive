@@ -181,7 +181,21 @@ main>section {
     margin-bottom: 0px;
 }
 
+#exp-badge{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+#exp-yr{
+    font-size: 4rem;
+    font-weight: 700;
+}
 
+.feature-architect img{
+    width: 100%;
+}
 
 
 /* Some Facts   */
@@ -245,7 +259,8 @@ main>section {
 
     .navbar,
     .nav-links,
-    .teams {
+    .teams,
+    .features-will-enjoy{
         flex-direction: column;
     }
 
@@ -268,12 +283,18 @@ main>section {
         justify-items: center;
         gap: 50px;
     }
+
+    #exp-badge{
+        margin-left: 10px;
+        margin-top: 20px;
+    }
 }
 
 /* medium size devices */
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
-    .teams {
+    .teams, 
+    .features-will-enjoy {
         flex-direction: column;
     }
 
@@ -297,5 +318,9 @@ main>section {
         grid-template-columns: repeat(3, 1fr);
         justify-items: center;
         gap: 50px;
+    }
+    #exp-badge{
+        margin-left: 20px;
+        /* margin-top: 20px; */
     }
 }
