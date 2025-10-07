@@ -159,13 +159,15 @@ main>section {
 }
 
 /* Features will enjoy */
-.features-will-enjoy{
- gap: 140px;
+.features-will-enjoy {
+    gap: 140px;
 }
+
 #feature-sec-tit {
     border-left: 5px solid #FF900E;
     padding-left: 21px;
 }
+
 .feature-card {
     padding: 30px;
     border-radius: 8px;
@@ -181,19 +183,20 @@ main>section {
     margin-bottom: 0px;
 }
 
-#exp-badge{
+#exp-badge {
     padding: 45px 42px;
     font-size: 1.5rem;
     font-weight: 500;
     margin-left: -100px;
     margin-top: -100px;
 }
-#exp-yr{
+
+#exp-yr {
     font-size: 4rem;
     font-weight: 700;
 }
 
-.feature-architect img{
+.feature-architect img {
     width: 100%;
 }
 
@@ -254,13 +257,32 @@ main>section {
     filter: grayscale(100%);
 }
 
+/* footer style */
+.footer-con {
+    max-width: 1440px;
+    max-height: 100px;
+    margin: 0px auto;
+    padding: 39px 410px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.footer-text {
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 /* Responsive Media Query */
 @media screen and (max-width: 576px) {
 
     .navbar,
     .nav-links,
     .teams,
-    .features-will-enjoy{
+    .features-will-enjoy {
         flex-direction: column;
     }
 
@@ -284,16 +306,26 @@ main>section {
         gap: 50px;
     }
 
-    #exp-badge{
-        margin-left: 10px;
+    #exp-badge {
+        margin-left: 0px;
         margin-top: 20px;
+    }
+
+    .footer-con {
+        padding: 10px 30px;
+        margin-top: 50px;
+    }
+
+    .footer-text {
+        font-size: 1rem;
     }
 }
 
 /* medium size devices */
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
-    .teams, 
+
+    .teams,
     .features-will-enjoy {
         flex-direction: column;
     }
@@ -319,8 +351,19 @@ main>section {
         justify-items: center;
         gap: 50px;
     }
-    #exp-badge{
+
+    #exp-badge {
         margin-left: 20px;
         /* margin-top: 20px; */
     }
+
+    .footer-con {
+        padding: 10px 30px;
+        margin-top: 50px;
+    }
+
+    .footer-text {
+        font-size: 1rem;
+    }
+
 }
